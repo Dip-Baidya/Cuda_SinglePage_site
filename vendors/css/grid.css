@@ -10,12 +10,12 @@
 /*  GROUPING  ============================================================================= */
 
 
-.group:before,
-.group:after {
+.row:before,
+.row:after {
     content:"";
     display:table;
 }
-.group:after {
+.row:after {
     clear:both;
 }
 .group {
