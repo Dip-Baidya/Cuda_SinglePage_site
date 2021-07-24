@@ -450,6 +450,7 @@ svg.ui-ux circle {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 30%;
+    background-attachment: fixed;
 }
 .contact-section h2::after{
     background: #273a71;
@@ -494,4 +495,28 @@ svg.ui-ux circle {
 }
 .btn-submit:hover{
     cursor: pointer;
+}
+
+/* ====================== */
+/* FOOTER SECTION */
+/* ===================== */
+
+.footer-section{
+    background: #344b8e;
+    padding: 3rem 0;
+    text-align: center;
+    border-top: .1rem solid rgba(255, 255, 255, 0.3);
+}
+.footer-section li {
+    display: inline-block;
+    margin: 0 2rem;
+}
+.footer-section li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 2.4rem;
+}
+.footer-section li:hover a {
+    color: #30bae7;
 }
